@@ -33,4 +33,19 @@ int main ()
 	 if(z!=0)
 	  {
 	 	cout<<a/z;
+	  
 	  }
+
+	 else
+	  {
+	    throw z;
+      }
+    }
+    catch(int i)
+    {
+    	cout<<"Exception Caught : Divide by zero";
+	}
+	return 0;
+}
+
+
