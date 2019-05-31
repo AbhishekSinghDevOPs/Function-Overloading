@@ -19,3 +19,18 @@ int main()
 	cout<<"\n"<<area(6.9f);
 }
 
+#include<iostream>
+using namespace std;
+int main ()
+{
+	int a,b;
+	cout<<"Enter the values of a & b";
+	cin>>a>>b;
+	int z=a-b;
+	try
+	{
+
+	 if(z!=0)
+	  {
+	 	cout<<a/z;
+	  }
