@@ -12,4 +12,10 @@ int area (int radius)
 {
 	return 3.14*radius*radius;
 }
+int main()
+{
+	cout<<area(6);
+	cout<<"\n"<<area(4,6);
+	cout<<"\n"<<area(6.9f);
+}
 
